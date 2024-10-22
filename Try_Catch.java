@@ -1,21 +1,19 @@
-package basics;
-import java.lang.ArithmeticException;
+package assignments;
 
-public class Try_Catch 
+public class Try_Catch
 {
-	public static void main(String[]args)
+
+	public static void main(String[] args) 
 	{
 		try
 		{
 			int x=1/1;
-			System.out.print("No Exception");
+			System.out.println("No exception");
 		}
-			catch(ArithmeticException a1)
-			{
-				System.out.print("Arithmetic Exception");
-			}
-			
-	}
+		catch (ArithmeticException a1)
+		{
+			System.out.println("Arithmatic Exception");
+		}
 	}
 
-
+}

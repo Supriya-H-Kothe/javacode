@@ -1,22 +1,21 @@
-package basics;
+package assignments;
 
-public class This_Keyword 
+public class This_keyword 
 {
- int age;
- String name;
- long salary;
- public void StudentInfo(int age,String name,long salary)
- {
-	 this.age=age;
-	 System.out.println("d");
- }
- public static void main (String[]args)
- {
-	 This_Keyword t1 =new This_Keyword();
-	t1. StudentInfo(23,"Ram",23986);
-	System.out.println(t1.age);
- }
- }
- 
+	String name;
+	int age;
+	void Student_details(String name,int age)
+	{  
+		this.name=name;
+		System.out.println("students details" );
+	}
 
+	public static void main(String[] args) 
+	{
+		This_keyword t1=new This_keyword ();
+		t1.Student_details("om", 29);
+		System.out.println(t1.name);
 
+	}
+
+}
